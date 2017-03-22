@@ -1,12 +1,23 @@
 # Python
 __pycache__/
 *.py[co]
-.env
+
+# IntelliIdea
 .idea
+
+# Logs
 log/*
+
+# databases
 *.sqlite3
+
+# Apple
 .DS_Store
 # virtualenv
 .venv
+.env
+myvenv/
+
+# Sublime
 *.sublime-workspace
 *.sublime-project

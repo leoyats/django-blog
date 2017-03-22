@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[co]
+.env
+.idea
+log/*
+*.sqlite3
+.DS_Store
+# virtualenv
+.venv
+*.sublime-workspace
+*.sublime-project

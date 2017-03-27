@@ -27,7 +27,7 @@ SECRET_KEY = 'zd0fo%gukog9cgm*77o7p*z)1g7#wnc%fil)q$th#$x!*t3!i-'
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['leoyats.pythonanywhere.com', '127.0.0.1',]
+ALLOWED_HOSTS = ['leoyats.pythonanywhere.com', '127.0.0.1', 'localhost:8000',]
 
 
 # Application definition
@@ -107,3 +107,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+LOGIN_REDIRECT_URL = '/'

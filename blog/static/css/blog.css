@@ -1,11 +1,10 @@
 h1 a {
         color: #FCA205;
-        font-family: 'Nova Oval', cursive;
+        font-family: 'PT Sans', sans-serif;
     }
 .page-header {
-        background-color: #1CCEFF;
+        background-color: #17A589;
         margin-top: 0;
-        padding: 20px 20px 20px 40px;
         position: fixed;
         z-index: 1000;
     }
@@ -21,13 +20,13 @@ h1 a {
     }
 
     h1, h3, h4 {
-        font-family: 'Lobster', cursive;
+        font-family: 'PT Sans', sans-serif;
     }
     h2 {
-    	font-family: 'Marck Script', cursive;
+    	font-family: 'PT Sans', sans-serif;
     }
 	p {
-		font-family: 'Gabriela', serif;
+		font-family: 'PT Sans', sans-serif;
 	}
     .date {
         float: right;
@@ -47,6 +46,7 @@ h1 a {
         float: right;
         font-size: 26pt;
         margin-right: 20px;
+        margin-top: 25px;
     }
 
     .post {
